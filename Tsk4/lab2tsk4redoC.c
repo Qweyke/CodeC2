@@ -28,7 +28,7 @@ int pop(ELEM** topn)
     return num;
 }
 
-void show(ELEM* topn)
+void show(const ELEM* topn)
 {
     if (topn != NULL){
         printf("\nElement on top is %d", topn->data);
